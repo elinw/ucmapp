@@ -1,0 +1,84 @@
+/**
+ * @copyright Copyright (C) 2012 - 2012 Open Source Matters. All rights reserved.
+ * @license GNU/GPL, see LICENSE.php
+ * Joomla! is free software. This version may have been modified pursuant to the
+ * GNU General Public License, and as distributed it includes or is derivative
+ * of works licensed under the GNU General Public License or other free or open
+ * source software licenses. See COPYRIGHT.php for copyright notices and
+ * details.
+ */
+
+/*Encyclopedia*/
+
+div.encyclopedia_col1 {
+	width:49%;
+	float:left;
+
+}
+div.encyclopedia_col1 p.img_caption {
+	font-size: .6em;
+}
+div.encyclopedia_col2 {
+	width:49%;
+	float:right;
+	padding-left:3px;
+	margin-left: 2px;
+}
+div.encyclopedia_col2 p {
+	padding-left:3px;
+	margin-left: 2px;
+}
+
+div.encyclopedia_links ul
+{
+        display:block;
+        margin:0px 0px 1px 0px;
+        list-style-type:none;
+        padding:10px 0px 10px 0px;
+        width:100%;
+
+}
+div.encyclopedia_links ul li
+{
+        display:inline ;
+        padding:2px ;
+        margin:2px;
+        white-space:nowrap;
+        font-size: .8em;
+
+}
+/*Gallery*/
+
+div.gallery-col-1 {
+	padding-top:15px;
+	width:210px;
+	float:left;
+	line-height: 150px;
+	background:#A0A0A0 ;
+}
+
+div.gallery-col-2 {
+	padding-top:15px;
+	width:210px;
+	float:right;
+	text-decoration: none;
+	line-height: 150px;
+	background: #A0A0A0 ;
+}
+
+div.image
+{
+		height: 150px;
+        padding:2px ;
+        margin:2px;
+		text-align:center;
+}
+div.image-fulltext
+{
+		text-align:center;
+}
+
+div.clear
+{
+        clear: both;
+}
