@@ -14,14 +14,15 @@
 define('_JEXEC', 1);
 
 // Setup the base path related constant.
-define('JPATH_BASE', dirname(__FILE__));
-define('JPATH_SITE', JPATH_BASE);
+define('JPATH_BASE', dirname(dirname(__FILE__)));
+define('JPATH_SITE', JPATH_BASE.'/code');
 
-define('JPATH_THEMES', JPATH_BASE.'/themes');
-define('JPATH_CACHE', JPATH_BASE.'/cache');
+define('JPATH_THEMES', JPATH_SITE.'/themes');
+define('JPATH_CACHE', JPATH_SITE.'/cache');
+define('JPATH_CONFIGURATION', JPATH_BASE.'/config');
 // Set this path appropriately
 define('JPATH_PLATFORM',dirname(dirname(dirname(__FILE__))) .'/joomla-platform/libraries' );
-define('JPATH_CONFIGURATION', JPATH_BASE.'/config');
+
 
 // Import the platform.
 require_once JPATH_PLATFORM . '/import.php';
